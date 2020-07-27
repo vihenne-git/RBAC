@@ -1,0 +1,13 @@
+
+j	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‡®‰8Ÿ–ıŞ¸.
+o
+java:S1128"MRemove this unused import 'com.springcloud.rbac.auth.DTO.Role_PermissionDTO'.(éşøÿÿÿÿ8¯²‰ß¸.
+o	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ìÈÌÿÿÿÿÿ8¨ß†ß¸.
+r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï—Íüÿÿÿÿ8Ö˜Šß¸.
+[
+java:S1128">Remove this unused import 'com.springcloud.rbac.auth.PO.User'.(¥—å8Ò¯ÖŞ¸.
+j	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”°úé8Ÿ–ıŞ¸.
+h
+java:S1192"KDefine a constant instead of duplicating this literal "add item :" 3 times.(Ï¥Ó8Ÿ–ıŞ¸.
+^
+java:S1128"BRemove this unused import 'com.springcloud.rbac.auth.DTO.RoleDTO'.(•×"8ØÜ‡ß¸.

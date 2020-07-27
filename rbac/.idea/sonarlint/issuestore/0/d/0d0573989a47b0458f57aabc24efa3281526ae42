@@ -1,0 +1,21 @@
+
+[
+java:S1128">Remove this unused import 'com.springcloud.rbac.auth.PO.Role'.(ãğ©™8àô‡à¸.
+x	java:S116!"WRename this field "user_roleDAO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¢»„şÿÿÿÿ8¯é½Ï¸.
+r	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ÈÆüÿÿÿÿ8µÒ•ß¸.
+r	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡§¸ıÿÿÿÿ8ŸÈß¸.
+F
+java:S1481a")Remove this unused "rows" local variable.(ÜÍÌÕ8¼€·ß¸.
+{
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(äº²›ûÿÿÿÿ8¼€·ß¸.
+m	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãşÖß8àô‡à¸.
+H
+java:S1168G"+Return an empty collection instead of null.(¥¹ï8¼€·ß¸.
+{
+java:S1128
+"YRemove this unused import 'com.springcloud.rbac.user_provider.controller.UserController'.(—ò÷ıÿÿÿÿ8¼€·ß¸.
+m	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ßõÇ8œ°¥ß¸.
+m	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úí8ÖÂÃŞ¸.
+U
+java:S1854a"8Remove this useless assignment to local variable "rows".(ÜÍÌÕ8¼€·ß¸.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÒŠØˆşÿÿÿÿ

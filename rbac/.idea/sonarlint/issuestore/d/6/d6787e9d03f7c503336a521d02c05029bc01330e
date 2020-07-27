@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡ÿ™š
+^
+java:S1128"BRemove this unused import 'com.baomidou.mybatisplus.enums.IdType'.(Úô¿{8ùİ•Í¸.
+G
+java:S1128	"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê8µóšÍ¸.

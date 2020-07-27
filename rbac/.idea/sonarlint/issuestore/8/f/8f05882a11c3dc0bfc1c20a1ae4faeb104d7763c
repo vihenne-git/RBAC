@@ -1,0 +1,9 @@
+
+o	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öª»‡ıÿÿÿÿ8ÿÙÍØ¸.
+p
+java:S1192"SDefine a constant instead of duplicating this literal "æ·»åŠ è§’è‰²æˆåŠŸ" 3 times.(¶ÈÙÇ8ûµÚØ¸.
+o	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¯İ®ûÿÿÿÿ8ååÎØ¸.
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(ó‚ğ•
+j	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éú‘8®¾²Ú¸.
+h
+java:S1192"KDefine a constant instead of duplicating this literal "add item :" 3 times.(¶ÈÙÇ8ûµÚØ¸.

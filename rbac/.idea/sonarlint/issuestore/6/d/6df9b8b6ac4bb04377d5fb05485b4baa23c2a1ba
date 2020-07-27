@@ -1,0 +1,4 @@
+
+{	java:S1163"ZRename this field "last_login_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏëŠÑûÿÿÿÿ8òŸ›Í¸.
+w	java:S116-"VRename this field "create_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÌó¹ùÿÿÿÿ8òŸ›Í¸.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡ÿ™š

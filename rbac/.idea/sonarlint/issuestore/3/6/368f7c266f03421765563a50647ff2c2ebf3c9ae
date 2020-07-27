@@ -1,0 +1,25 @@
+
+t
+java:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(ûéşøÿÿÿÿ
+r	java:S117t"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üû¬Òüÿÿÿÿ8šÙÙ¸.
+j
+java:S1128"HRemove this unused import 'com.springcloud.rbac.auth.util.ReturnResult'.(©×²ûúÿÿÿÿ8÷ØÎÚ¸.
+r	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùú¡ÿúÿÿÿÿ8ã¶ŠÙ¸.
+R
+java:S1128"6Remove this unused import 'com.alibaba.fastjson.JSON'.(Ö¢å$8š©Èİ¸.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—°ƒù
+a
+java:S1128"DRemove this unused import 'com.springcloud.rbac.auth.PO.Permission'.(œ”‚8š©Èİ¸.
+Y
+java:S1128"<Remove this unused import 'com.alibaba.fastjson.JSONObject'.(äıµ8ëÜ¡İ¸.
+Z
+java:S1854i"8Remove this useless assignment to local variable "rows".(¢É¬îşÿÿÿÿ8øŠÃØ¸.
+{
+java:S1128"YRemove this unused import 'com.springcloud.rbac.role_provider.controller.RoleController'.(¿š·Ñüÿÿÿÿ8Áî–Ú¸.
+K
+java:S1481i")Remove this unused "rows" local variable.(¢É¬îşÿÿÿÿ8øŠÃØ¸.
+m	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úœ÷À8†õŸØ¸.
+A
+java:S1168O"+Return an empty collection instead of null.(¥¹ï
+m
+java:S1128"KRemove this unused import 'com.fasterxml.jackson.databind.json.JsonMapper'.(ıÅ’àûÿÿÿÿ8½‘¡İ¸.

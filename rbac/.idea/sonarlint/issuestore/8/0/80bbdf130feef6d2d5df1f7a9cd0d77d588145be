@@ -1,0 +1,12 @@
+
+i
+java:S1128"LRemove this unused import 'com.baomidou.mybatisplus.annotations.TableField'.(°·é–8™ÂàÑ¸.
+[
+java:S1128">Remove this unused import 'com.springcloud.rbac.auth.PO.Role'.(ãğ©™8ÕÂüÔ¸.
+h
+java:S1128"KRemove this unused import 'com.baomidou.mybatisplus.annotations.TableName'.( ÕÆÌ8ö°ÚÑ¸.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÂÊ‹
+t	java:S1161"ZRename this field "last_login_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏëŠÑûÿÿÿÿ
+p	java:S116,"VRename this field "create_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÌó¹ùÿÿÿÿ
+f
+java:S1128"IRemove this unused import 'com.baomidou.mybatisplus.annotations.TableId'.(¤„ù›8öòßÑ¸.

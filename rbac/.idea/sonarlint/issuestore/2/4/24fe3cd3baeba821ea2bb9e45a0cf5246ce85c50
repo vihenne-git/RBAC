@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÂÊ‹
+h
+java:S1128"KRemove this unused import 'com.baomidou.mybatisplus.annotations.TableName'.( ÕÆÌ8¢ŒåÑ¸.
+i
+java:S1128"LRemove this unused import 'com.baomidou.mybatisplus.annotations.TableField'.(°·é–8ÅåÑ¸.
+f
+java:S1128"IRemove this unused import 'com.baomidou.mybatisplus.annotations.TableId'.(¤„ù›8¢ŒåÑ¸.
+g
+java:S1128"JRemove this unused import 'com.fasterxml.jackson.annotation.JsonProperty'.(ËÃ§Ï8Ñª‰Ş¸.
+`
+java:S1854(">Remove this useless assignment to local variable "permission".(áß¢Íüÿÿÿÿ8Ñª‰Ş¸.

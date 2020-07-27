@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b7726c7-8d10-41e4-a0f0-80ccc30a452d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1fCokPr691EQ4uXbxK6xRRlH6Yl" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pre-master" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springcloud.rbac.role_provider" />
+      <recent name="com.springcloud.rbac.auth" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springcloud.rbac.user_provider.clients" />
+      <recent name="com.springcloud.rbac.role_provider.clients" />
+      <recent name="com.springcloud.rbac.auth.client" />
+      <recent name="com.springcloud.rbac.role_provider.controller" />
+      <recent name="com.springcloud.rbac.permission_provider.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SpringCloud\rbac\role_provider\src\main\java\com\springcloud\rbac\role_provider" />
+      <recent name="F:\SpringCloud\rbac\permission_provider\src\main\java\com\springcloud\rbac\permission_provider" />
+      <recent name="F:\SpringCloud\rbac\auth\src\main\java\com\springcloud\rbac\auth\DTO" />
+      <recent name="F:\SpringCloud\rbac\auth\src\test\java\com\springcloud\rbac\auth" />
+      <recent name="F:\SpringCloud\rbac\gateway\src\main\java\com\springcloud\rbac\gateway" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PermissionProviderApplication">
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.rbac.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.rbac.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermissionProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="permission_provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.rbac.permission_provider.PermissionProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="role_provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.rbac.role_provider.RoleProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user_provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.rbac.user_provider.UserProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

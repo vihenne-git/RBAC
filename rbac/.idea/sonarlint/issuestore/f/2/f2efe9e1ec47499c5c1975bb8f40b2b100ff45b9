@@ -1,5 +1,5 @@
 
-P
-java:S4719U":Replace Charset.forName() call with StandardCharsets.UTF_8(¤Å¼ˆ
 W
 java:S1075\"ARefactor your code to get this URI from a customizable parameter.(Ô»ŠÉ
+P
+java:S4719U":Replace Charset.forName() call with StandardCharsets.UTF_8(¤Å¼ˆ

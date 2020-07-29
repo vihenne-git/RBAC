@@ -1,10 +1,10 @@
 
-h
-java:S1128"KRemove this unused import 'com.baomidou.mybatisplus.annotations.TableName'.( ÕÆÌ8ÀçäÑ¸.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÂÊ‹
 i
 java:S1128"LRemove this unused import 'com.baomidou.mybatisplus.annotations.TableField'.(°·é–8ÀçäÑ¸.
-f
-java:S1128"IRemove this unused import 'com.baomidou.mybatisplus.annotations.TableId'.(¤„ù›8ÀçäÑ¸.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÂÊ‹
+h
+java:S1128"KRemove this unused import 'com.baomidou.mybatisplus.annotations.TableName'.( ÕÆÌ8ÀçäÑ¸.
 a
 java:S1128"DRemove this unused import 'com.springcloud.rbac.auth.PO.Permission'.(œ”‚8É‹ùÔ¸.
+f
+java:S1128"IRemove this unused import 'com.baomidou.mybatisplus.annotations.TableId'.(¤„ù›8ÀçäÑ¸.

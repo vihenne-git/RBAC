@@ -1,6 +1,6 @@
 
-{	java:S116$"ZRename this field "permission_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ĞÁãùÿÿÿÿ8è¨øÑ¸.
 m	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ğ³Î8±ÇÕÔ¸.
+{	java:S116$"ZRename this field "permission_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ĞÁãùÿÿÿÿ8è¨øÑ¸.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÂÊ‹
 a
 java:S1128"DRemove this unused import 'com.springcloud.rbac.auth.PO.Permission'.(œ”‚8è‰ÔÔ¸.

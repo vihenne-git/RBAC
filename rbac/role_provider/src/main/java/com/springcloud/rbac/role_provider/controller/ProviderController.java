@@ -1,14 +1,12 @@
 package com.springcloud.rbac.role_provider.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Author asus
  * @create 23/7/2020 下午4:32
  */
+@CrossOrigin
 @RestController
 public class ProviderController {
     @GetMapping("/hi")

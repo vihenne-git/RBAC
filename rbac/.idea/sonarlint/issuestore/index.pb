@@ -85,3 +85,5 @@ grole_provider/src/main/java/com/springcloud/rbac/role_provider/service/serviceI
 [user_provider/src/main/java/com/springcloud/rbac/user_provider/UserProviderApplication.java,4\e\4ec9d6a678ec7c8a80993125fcff90b21977d968
 —
 guser_provider/src/main/java/com/springcloud/rbac/user_provider/service/serviceImpl/UserServiceImpl.java,0\d\0d0573989a47b0458f57aabc24efa3281526ae42
+N
+permission_provider/.gitignore,a\0\a0b2ddee01547030ab57a73a7cf25248345debbf

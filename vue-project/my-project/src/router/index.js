@@ -31,6 +31,11 @@ export default new Router({
       hidden: true
     },
     {
+      path: '/RolePermisAdd',
+      component: () => import('@/views/RolePermisAdd'),
+      hidden: true
+    },
+    {
       path: '/main',
       component: () => import('@/views/main'),
       hidden: true,

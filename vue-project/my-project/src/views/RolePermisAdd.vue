@@ -1,59 +1,58 @@
 <template>
-    <div class="content">
-      <button @click="add" class="btn">添加角色</button>
+  <div class="content">
+    <div class="items">
+      <div class="items1">权限ID</div>
+      <div class="items21">权限名</div>
+      <div class="items31">权限url</div>
+    </div>
+    <div v-for="item in list" v-bind:key="item.id">
       <div class="items">
-        <div class="items1">角色ID</div>
-        <div class="items21">角色名</div>
-        <div class="items31">角色类型</div>
-        <div class="items41">角色权限</div>
-      </div>
-      <div v-for="item in list" v-bind:key="item.id">
-        <div class="items">
-          <div class="items1">{{item.id}}</div>
-          <div class="items2">{{item.name}}</div>
-          <div class="items3">{{item.type}}</div>
-          <div class="items4">
-            <div v-for="item1 in item.permission_list" v-bind:key="item1.id">
-              <div class="items11">{{item1.name}}</div>
-            </div>
-          </div>
-          <button @click="deleteRole(item.id)" class="btn">删除</button>
-          <button @click="addPermis(item.id)" class="btn">添加权限</button>
-        </div>
+        <div class="items1">{{item.id}}</div>
+        <div class="items2">{{item.name}}</div>
+        <div class="items3">{{item.url}}</div>
+        <button @click="deleteRole(item.id)" class="btn">删除</button>
       </div>
     </div>
+    <div class="items">
+      <input class="items1" type="text" v-model="permisId" :placeholder=permisId>
+      <button @click="add" class="btn">添加</button>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'demo2',
+  name: 'RolePermisAdd',
+  data () {
+    return {
+      id: 0,
+      list: [],
+      msg: '',
+      permisId: 0
+    }
+  },
   created () {
-    this.$axios.post('/user-provider/user/selectURP', {
-      id: this.$root.id
+    this.id = this.$route.query.id
+    this.$axios.post('/role-provider/role/selectRP', {
+      id: this.id
     })
       .then(res => {
         // 注册成功
         this.msg = res.data
-        // eslint-disable-next-line eqeqeq
-        if (res.data.code == 200) {
-          this.list = res.data.data.role_list
-        }
+        this.list = res.data.data.permission_list
       })
       .catch(err => {
         console.log(err)
       })
   },
-  data () {
-    return {
-      list: [],
-      msg: ''
-    }
-  },
   methods: {
     deleteRole (index) {
       // eslint-disable-next-line no-unused-expressions,eqeqeq
-      this.$axios.post('/role-provider/role/remove', {
-        id: index
+      this.$axios.get('/permission-provider/permission/remove_rp', {
+        params: {
+          rid: this.id,
+          pid: index
+        }
       })
         .then(res => {
           // 注册成功
@@ -65,17 +64,21 @@ export default {
           console.log(err)
         })
     },
-    addPermis (index) {
-      // 给角色添加权限
-      this.$router.push({
-        path: '/RolePermisAdd',
-        query: {
-          id: index
+    add () {
+      this.$axios.get('/permission-provider/permission/add_rp', {
+        params: {
+          rid: this.id,
+          pid: this.permisId
         }
       })
-    },
-    add () {
-      this.$router.push({path: '/RoleEdit'})
+        .then(res => {
+          // 注册成功
+          console.log(res)
+          // eslint-disable-next-line eqeqeq
+        })
+        .catch(err => {
+          console.log(err)
+        })
     }
   }
 }
